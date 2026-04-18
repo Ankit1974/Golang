@@ -1,0 +1,16 @@
+/*
+ 1. Logger - (logs every incoming request with method, path, status, and duration)
+ 2. Recovery - (recovers from panics and returns HTTP 500 instead of crashing the server)
+ 3. Auth - (verifies authentication token before allowing access to protected routes)
+ 4. Authorization - (checks user role/permissions before executing handler)
+ 5. CORS - (handles cross-origin requests and sets required headers)
+ 6. RequestID - (assigns a unique ID to each request for tracing and debugging)
+ 7. RateLimiter - (limits the number of requests per IP or user)
+ 8. Timeout - (cancels request if it takes too long to process)
+ 9. BodyLimit - (restricts maximum request body size to prevent abuse)
+ 10. ContentType - (ensures request has the correct Content-Type header)
+ 11. SecurityHeaders - (adds security-related HTTP headers like X-Frame-Options)
+ 12. Compression - (compresses response using gzip or brotli to reduce size)
+ 13. Metrics - (collects request metrics for monitoring systems like Prometheus)
+ 14. CacheControl - (sets caching rules in response headers)
+*/
